@@ -1,0 +1,11 @@
+{
+  "additionalFiles": "..\\..\\..,..\\..\\..",
+  "builtInToolsFolders": "",
+  "compiler.optimization_flags": "",
+  "customBuildProperties": "",
+  "fqbn": "arduino:avr:uno",
+  "hardwareFolders": "C:\\Users\\Paul\\AppData\\Local\\Arduino15\\packages",
+  "otherLibrariesFolders": "C:\\Users\\Paul\\Documents\\Arduino\\libraries",
+  "runtime.ide.version": "10607",
+  "sketchLocation": "E:\\Development\\diy-display-tester"
+}
