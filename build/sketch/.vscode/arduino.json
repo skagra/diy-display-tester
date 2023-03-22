@@ -1,7 +1,0 @@
-#line 1 "E:\\Development\\diy-display-tester\\.vscode\\arduino.json"
-{
-    "sketch": "diy-display-tester.ino",
-    "output": "build",
-    "board": "arduino:avr:uno",
-    "port": "COM4"
-}
