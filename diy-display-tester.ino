@@ -1,8 +1,4 @@
-#define PIN_INTERRUPT 2
-#define PIN_ADDR_LOW 3
-#define PIN_ADDR_HIGH 4
-#define PIN_VAL_MIN 5
-#define PIN_VAL_MAX 12
+#include "Pins.h"
 
 #define OP_VALUE_ONE 0x00
 #define OP_VALUE_TWO 0x01
