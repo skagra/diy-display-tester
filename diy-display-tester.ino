@@ -45,7 +45,7 @@ void doWriteByteVal(byte val, byte op)
     setAddr(op);
     setVal(val);
     pulseClock();
-    delay(50);
+    delay(20);
 }
 
 void doWriteString(const char *val)
@@ -64,27 +64,27 @@ void loop()
 
     doWriteString("Testing message ... ");
     delay(1000);
-    for (byte letter = 'A'; letter <= 'z'; letter++)
-    {
-        doWriteByteVal(letter, OP_MESSAGE);
-    }
+    // for (byte letter = 'A'; letter <= 'z'; letter++)
+    // {
+    //     doWriteByteVal(letter, OP_MESSAGE);
+    // }
     doWriteString(" ... done. ");
     delay(1000);
 
-    doWriteString("Testing value 1... ");
-    delay(1000);
-    for (int val1 = 0; val1 <= 255; val1++)
-    {
-        doWriteByteVal(val1, OP_VALUE_ONE);
-    }
-    doWriteString("done. ");
-    delay(1000);
+    // doWriteString("Testing value 1... ");
+    // delay(1000);
+    // for (int val1 = 0; val1 <= 255; val1++)
+    // {
+    //     doWriteByteVal(val1, OP_VALUE_ONE);
+    // }
+    // doWriteString("done. ");
+    // delay(1000);
 
-    doWriteString("Testing value 2... ");
-    for (int val2 = 0; val2 <= 255; val2++)
-    {
-        doWriteByteVal(val2, OP_VALUE_TWO);
-    }
-    doWriteString("done. ");
-    delay(1000);
+    // doWriteString("Testing value 2... ");
+    // for (int val2 = 0; val2 <= 255; val2++)
+    // {
+    //     doWriteByteVal(val2, OP_VALUE_TWO);
+    // }
+    // doWriteString("done. ");
+    // delay(1000);
 }
