@@ -1,6 +1,6 @@
 #  DIY DISPLAY TESTER
 
-This is a simple test harness for memory mapped [display](https://github.com/skagra/diy-display) for the [DIY CPU](https://github.com/skagra/diy-cpu-display) project.
+This is a simple test harness for memory mapped [display](https://github.com/skagra/diy-display) for the [DIY CPU](https://github.com/skagra/diy-cpu-meta) project.
 
 # Circuit
 
